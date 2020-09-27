@@ -1,0 +1,145 @@
+.fetch-individual {
+    text-align: center;
+    width: 30%;
+    margin: 0 auto;
+    border: 8px solid rgb(204, 175, 12);
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 5px 5px 10px black;
+    height: 70vh;
+}
+
+.fetch-individual .poke-card {
+    height: 100%;
+}
+ 
+.fetch-individual h1::first-letter {
+    text-transform: uppercase;
+}
+
+.img-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.452);
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 5px 5px 10px black;
+    border: 3px solid rgb(204, 175, 12);
+    height: 20vh;
+}
+
+.top-card {
+    display: flex;
+    justify-content: space-around;
+}
+
+.poke-image {
+    width: 9rem;
+    height: 9rem;
+}
+
+.poke-stats {
+    display: flex;
+    background-color: rgb(204, 175, 12);
+    width: 90%;
+    height: 3vh;
+    margin: 1rem auto;
+    justify-content: space-around;
+    font-size: 0.7rem;
+    border-radius: 5px;
+    align-items: center;
+    color: black;
+}
+
+.bottom-card {
+    text-align: left;
+    margin-top: 3rem;
+}
+
+.bottom-card h2, .bottom-card h4 {
+    padding-left: 2rem;
+} 
+
+.bottom-card h2::first-letter {
+    text-transform: uppercase;
+}
+
+.bottom-card h2 {
+    font-size: 1.8rem;
+}
+
+.bottom-card h4 {
+    margin: 0;
+    padding-bottom: 1rem;
+}
+
+.black-underline {
+    width: 90%;
+    height: 0.1rem;
+    margin: 0 auto;
+    background-color: black;
+}
+
+h6 {
+    margin: 0px;
+    padding: 0.5rem;
+}
+
+.poke-credits {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (min-width: 1500px) {
+    .poke-credits {
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    .fetch-individual {
+        height: 65vh;
+        width: 40%;
+    }
+
+    .top-card h1 {
+        font-size: 1.5rem;
+    }
+
+    .top-card h2 {
+        font-size: 1.2rem;
+    }
+
+    .bottom-card h2 {
+        font-size: 1.4rem;
+    }
+
+    .bottom-card h4 {
+        font-size: 1rem;
+    }
+
+    .poke-stats {
+        font-size: 0.5rem;
+    }
+
+    .poke-credits {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .fetch-individual {
+        width: 60%;
+    }
+}
+
+@media (max-width: 400px) {
+    .fetch-individual {
+        width: 80%;
+    }
+}
