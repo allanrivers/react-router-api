@@ -1,0 +1,19 @@
+nav {
+    display: flex;
+    min-height: 5vh;
+    background-color: rgb(31, 31, 150);
+    justify-content: space-between;
+}
+
+.list-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+}
+
+.list-links li {
+    color: white;
+    text-decoration: none;
+}

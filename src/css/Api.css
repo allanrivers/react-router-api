@@ -1,0 +1,16 @@
+.resultApiCall {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    text-align: center;
+}
+
+.resultApiCall li {
+    list-style-type: none;
+    line-height: 2rem;
+    cursor: pointer;
+}
+
+.resultApiCall li:hover {
+    transform: scale(1.1);
+}
